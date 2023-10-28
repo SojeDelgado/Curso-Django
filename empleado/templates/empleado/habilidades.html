@@ -1,0 +1,16 @@
+<h1>Habilidades del empleado</h1>
+
+<ul>
+    {% for e in object_list %}
+        <li> {{e}} </li>
+    {% endfor %}
+</ul>
+
+<form method="GET">
+    <button type="submit" name="page" value="1">Página 1</button>
+    <button type="submit" name="page" value="2">Página 2</button>
+    <button type="submit" name="page" value="3">Página 3</button>
+    <!-- Agrega más botones para más páginas -->
+</form>
+  
+  
